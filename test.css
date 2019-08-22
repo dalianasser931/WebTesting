@@ -547,3 +547,46 @@ text-align: center !important ;
     font-size: 18px;
     font-weight: 400px;
 }
+
+/* Start Section Footer */
+
+
+.footer{
+    background-color: #333333;
+    padding: 50px 0;
+}
+footer{
+    text-align: center;
+    color: #FFF
+}
+
+footer .icons ul{
+    list-style: outside none none;
+    margin-bottom: 10px
+}
+footer .icons ul li{
+    display: inline-block;
+}
+footer .icons ul li a{
+    color: #FFF;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    padding: 0 12px;
+    transition: all 0.3s ease 0s;
+}
+footer .icons ul li a:hover{
+    color: #EC2403
+}
+footer .copy-right a{
+    color: #ff305b;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    font-weight: 500;
+}
+footer .copy-right a:hover{
+    text-decoration: underline
+}
+
+
+/* End Section Footer */
