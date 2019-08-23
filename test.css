@@ -498,6 +498,47 @@ padding-right: 2px;
     
     
 }
+/*portof*/
+.portof .portof2 li{
+    display: inline-block;
+    padding: 10px 20px;
+    border:2px solid #dddddd;
+}
+
+.portof .portof2 li a{
+    text-decoration: none;
+    color: black;
+}
+
+.portof .portof2 li:hover a{color: red;}
+
+.portof .portof2 li:hover {border-color: red;}
+
+
+.portof .portof5{
+    margin: 10px;
+    text-align: center;
+}
+.portof{
+    background-color: #f5f5f5;
+}
+.portof .portof5{
+    background-color: white;
+}
+
+.portof .portof9{
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px 20px;
+}
+
+.portof .port{
+   background-color: #ec3237;
+    text-decoration: none;
+      padding: 10px;
+    color: white;
+    
+}
 
 
 
