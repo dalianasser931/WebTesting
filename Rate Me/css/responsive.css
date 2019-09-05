@@ -1,0 +1,58 @@
+@media (max-width: 768px){
+    .social-media-bar{
+        display: none
+    }
+    .contact-us-bar{
+        display: flex;
+        justify-content: center;
+    }
+    .contact-us-bar .about_sites li{
+        display: inline;
+    }
+    .register .submit{
+        display: none
+    }
+}
+@media(max-width:533px){
+    
+}
+@media (max-width: 991.98px){
+    .icon-links {
+        float: right;
+        margin-left: 35px;
+        position: relative;
+        top: -141px;
+    }
+    .site-name{
+        position: relative;
+        top: -75px;
+        right: 40%;
+    }
+    .award-label{
+        padding: 20px 12px 
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .container {
+        max-width: 100%;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .container {
+        max-width: 100%;
+    }
+}
+@media (min-width: 993px)  { 
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+    
+}
+
