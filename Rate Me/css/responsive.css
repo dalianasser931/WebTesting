@@ -12,6 +12,17 @@
     .register .submit{
         display: none
     }
+    /* footer .info li a{
+        padding-right: 2px
+    }
+    footer .info p{
+        font-size: 14px
+    } */
+    .info{
+        display: flex;
+        justify-content: center;
+        align-items: center
+      }
 }
 @media(max-width:533px){
     
@@ -36,7 +47,9 @@
     .container {
         max-width: 100%;
     }
-    
+    .head img{
+        width: 100%
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px) { 
     .container {
@@ -48,7 +61,6 @@
         max-width: 100%;
     }
 }
-
 @media (min-width: 1200px) {
     .container {
         max-width: 1170px;
