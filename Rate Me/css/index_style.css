@@ -4,11 +4,13 @@
 }
 body {
   position: relative;
-  font-family: 'Cairo', sans-serif !important;
+  /* font-family: 'Cairo', sans-serif !important; */
   font-weight: 400;
   font-size: 14px;
   color: #989595;
   -webkit-font-smoothing: antialiased;
+  font-family: cursive !important;
+
 }
 img {
   max-width: 100%;
@@ -670,5 +672,17 @@ footer .contact-us-bar li{
   padding: 15px 0 0;
 }
 
+/* contact_us */
 
+.form-control {
+  direction: rtl
+}
 
+#subject.form-control {
+  padding: .175rem .75rem;
+}
+.contact .header-contact{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center
+}
