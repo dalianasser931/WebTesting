@@ -1,3 +1,7 @@
+
+
+
+
 /*start about */
 
 .about{
@@ -36,6 +40,7 @@
 }
 .about-link:hover{
     text-decoration: none;
+    color: blue;
 }
 .about-list{
     text-align: center;
@@ -78,10 +83,17 @@
     margin-bottom: 40px;
     margin-top: 20px;
     font-weight: 900;
+    color: black;
 }
 
 #words{
     margin-bottom: 15px;
+    font-size: 20px;
+    color: black;
+}
+#final{
+      font-size: 20px;
+color: black;
 }
 .about-icons{
     padding: 20px;
